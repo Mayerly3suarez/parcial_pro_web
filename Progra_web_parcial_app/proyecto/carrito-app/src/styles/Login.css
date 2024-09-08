@@ -1,0 +1,82 @@
+.container_principal {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.carrito {
+    width: 180px;
+    position: absolute;
+    left: 65%;
+    top: 38%;
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.309));
+}
+
+.container_fondo {
+    width: 100%;
+    height: 320px;
+    background-color: #cdccf0;
+    overflow: hidden;
+    
+    
+}
+
+.container_fondo img {
+    width: 120%;
+    height: 350px;
+    margin-top: -30px;
+    overflow: hidden;
+    
+}
+
+.container-buttons {
+    margin-top: 70px;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-buttons h3 {
+    margin-top: -55px;
+    font-size:10vw;
+    font-weight: 200;
+    color: #2b2a54;
+}
+
+.container-buttons h3 span {
+    font-weight: 900;
+}
+
+.description {
+    font-size: 25px;
+    color: #2b2a54;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-login {
+    background-color: #2b2a54;
+    width: 120px;
+    height: 25px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.btn-register {
+    background-color: #2b2a54;
+    width: 120px;
+    height: 25px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
